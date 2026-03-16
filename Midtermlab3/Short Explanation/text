@@ -1,0 +1,11 @@
+MP13 Explanation
+
+The program reads a CSV file entered by the user and checks each row for missing values. It splits each row into columns using commas and detects if any column is empty. If a missing value is found, the program prints the row number and the row content. This helps identify incomplete data in the dataset.
+
+MP14 Explanation
+
+The program counts how many rows contain a specific keyword entered by the user. After reading the CSV file, it checks each row using a case-insensitive search. If the keyword appears in the row, a counter increases. The program then displays how many times the keyword appears in the dataset.
+
+MP15 Explanation
+
+The program reads a CSV dataset and exports the first 50 rows to a new CSV file. It uses file reading and writing functions to copy the rows from the original file. Only the first 50 rows are written to the new file. This allows the user to create a smaller sample dataset from a large CSV file.
